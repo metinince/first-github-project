@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 4px solid lightgray;
+    display:flex;
+    padding: 24px 24px 24px 24px;
+    justify-content: space-between;
+}
+
+.bigbox{
+    border: 4px solid lightgray;
+    width: 45%;
+    height: 200px;
+    padding: 24px;
+}
+
+.boxwrapper{
+    width: 45%;
+}
+
+.box{
+    border: 4px solid lightgray;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 24px;
+}
