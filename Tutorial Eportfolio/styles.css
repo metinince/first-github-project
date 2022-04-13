@@ -32,6 +32,11 @@ li{
 .flex-1{
     flex: 1;
 }
+
+.container{
+    padding: 50px;
+}
+
 .row{
     width: 100%;
     max-width: 800px;
@@ -41,6 +46,15 @@ li{
 .text--color{
     color: #6030b1;
 }
+
+section:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.section__title{
+    padding-bottom: 20px;
+}
+
 
 /* NAVIGATION BAR */
 
@@ -71,7 +85,7 @@ nav{
     border-radius: 50px;
     padding: 8px 20px;
     color: #ffff;
-    transition: all 300ms ease;
+    transition: all 300ms ea;
 }
 
 .nav__link--anchor-primary:hover{
@@ -147,3 +161,40 @@ nav{
 .about-me__img{
     width: 100%;
 }
+
+/* TECHNOLOGY STACK */
+
+.language__list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px 16px;
+}
+
+.language{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language__img:hover{
+    filter: brightness(80%);
+    opacity: 86%;
+    transform: scale(90%);
+}
+
+.language__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language__img{
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    transition: all 300ms;
+    
+}
+
